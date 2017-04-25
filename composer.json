@@ -1,0 +1,22 @@
+{
+    "require": {
+        "silex/silex": "~2.0",
+        "knplabs/console-service-provider": "^2.0",
+        "doctrine/dbal": "^2.5",
+        "symfony/doctrine-bridge": "^3.1",
+        "dflydev/doctrine-orm-service-provider": "^2.0",
+        "sorien/silex-pimple-dumper": "~2.0",
+        "gecko-packages/gecko-silex-config-service" : "^2.0",
+        "symfony/yaml": "^3.1",
+        "monolog/monolog": "^1.21",
+        "symfony/dom-crawler": "^3.1",
+        "symfony/css-selector": "^3.1",
+        "irazasyed/telegram-bot-sdk": "^2.0",
+        "ahoulgrave/silex-tg-service-provider": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+vendor
+config/db.yml
+log/*
+!log/.gitkeep
+.idea
